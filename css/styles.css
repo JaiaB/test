@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body, 
+html{
+    font-family: 'epilogue', sans-serif;
+    background-image:linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgb(2, 58, 199) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.landing-container{
+    padding: 2em;
+}
+
+.navigation-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.navigation-middle{
+    display: flex;
+    gap: 4em;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-middle a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8em;
+}
+
+.navigation-buttons button{
+    font-family: 'epilogue', sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 100px;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    color: rgba(2,0,36,1);
+}
+
+.navigation-buttons .login{
+    background-color: transparent;
+    border: solid 1.5px white;
+    color: white;
+}
+
+.landing-content{
+    display: flex;
+    padding: 5em 5em 0 5em;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.landing-image{
+    width: 500px;
+}
+
+.landing-content-right{
+    width:500px;
+}
+
+.landing-title{
+    margin-top: 30px;
+    font-size: 3em;
+    line-height: 1.12;
+    letter-spacing: 0.020em;
+}
+
+.scroll-button-area{
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 2.5em;
+    width: 150px;
+}
+
+.scroll-button-symbol{
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 50px;
+    width: 20px;
+    height: 25px;
+    padding: 4px;
+    color: white;
+}
+.scroll-button-label{
+    font-size: 14px;
+}
